@@ -61,7 +61,7 @@
     object-fit: contain;
     -webkit-transition: 1s linear;
     transition: 1s linear;
-    
+
 
 }
 
@@ -239,11 +239,11 @@ footer h2 {
 .container-fluid {
 
     padding-left: 0px;
-    padding-right:0px;
+    padding-right: 0px;
 
 }
 
-.container-fluid img{
+.container-fluid img {
 
     width: 100%;
     background-position: center;
@@ -251,7 +251,7 @@ footer h2 {
 
 }
 
-.tipoVinoPro{
+.tipoVinoPro {
 
     text-align: center;
     font-size: 35px;
@@ -259,7 +259,7 @@ footer h2 {
     color: #fff;
 }
 
-.textoPro{
+.textoPro {
 
     text-align: center;
     font-size: 20px;
@@ -267,56 +267,56 @@ footer h2 {
 
 }
 
-.vin1{
+.vin1 {
 
-background-color: #b0143bda;
-
-}
-
-.vin2{
-
-background-color: #b0143bda;
+    background-color: #b0143bda;
 
 }
 
-.vin3{
+.vin2 {
 
-background-color: #b0143bda;
+    background-color: #b0143bda;
+
+}
+
+.vin3 {
+
+    background-color: #b0143bda;
 
 
 }
 
-.vin4{
+.vin4 {
 
-background-color: #b0143bda;
+    background-color: #b0143bda;
 
 
 }
 
 /* ------------------------------------servicios (utilizando grid)---------------------------------------------------- */
 
-#grilla{
+#grilla {
 
     display: grid;
 
     grid-template-areas: "grid1 grid1 grid2"
-    "grid3 grid3 grid3"
-    "grid4 grid5 grid5";
+        "grid3 grid3 grid3"
+        "grid4 grid5 grid5";
 
-    grid-template-rows: 400px 600px 300px ;
+    grid-template-rows: 400px 600px 300px;
 
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-.griSer1{
+.griSer1 {
 
     grid-area: grid1;
     /* background-color: aqua; */
     background-color: #b0143bda;
 }
 
-.griSer1 img{
+.griSer1 img {
 
     width: 90%;
     height: 380px;
@@ -326,30 +326,30 @@ background-color: #b0143bda;
     -webkit-transition: 1s linear;
     transition: 1s linear;
     margin: 10px 10px 10px 10px;
-    
+
 
 }
 
-.griSer1 img:hover{
+.griSer1 img:hover {
 
     -webkit-transform: skew(10deg);
     transform: skew(10deg);
-    
+
 
 }
 
 /* ----------------------------------------seccion2------------------------------------- */
 
-.griSer2{
+.griSer2 {
 
-    grid-area:grid2 ;
+    grid-area: grid2;
     /* background-color: azure; */
     background-color: #b0143bda;
     overflow: auto;
 
 }
 
-.griSer2 h2{
+.griSer2 h2 {
 
     text-align: center;
     font-size: 35px;
@@ -358,9 +358,9 @@ background-color: #b0143bda;
 
 }
 
-.griSer2 p{
+.griSer2 p {
 
-    overflow:hidden;
+    overflow: hidden;
     text-align: left;
     font-size: 20px;
     color: #fff;
@@ -369,15 +369,15 @@ background-color: #b0143bda;
 
 /* ----------------------------------------seccion3------------------------------------- */
 
-.griSer3{
+.griSer3 {
 
-    grid-area:grid3 ;
+    grid-area: grid3;
     /* background-color:blue ; */
     background-color: #b0143bda;
 
 }
 
-.griSer3 h2{
+.griSer3 h2 {
 
     text-align: center;
     font-size: 35px;
@@ -386,7 +386,7 @@ background-color: #b0143bda;
 
 }
 
-.griSer3 img{
+.griSer3 img {
 
     width: 98%;
     height: 500px;
@@ -400,7 +400,7 @@ background-color: #b0143bda;
 
 }
 
-.griSer3 img:hover{
+.griSer3 img:hover {
 
     -webkit-transform: perspective(450px) rotateX(5deg);
     transform: perspective(450px) rotateX(5deg);
@@ -409,7 +409,7 @@ background-color: #b0143bda;
 
 /* ----------------------------------------seccion4------------------------------------- */
 
-.griSer4{
+.griSer4 {
 
     grid-area: grid4;
     /* background-color: blueviolet; */
@@ -418,7 +418,7 @@ background-color: #b0143bda;
 
 }
 
-.griSer4 h2{
+.griSer4 h2 {
 
     text-align: center;
     font-size: 35px;
@@ -427,9 +427,9 @@ background-color: #b0143bda;
 
 }
 
-.griSer4 p{
+.griSer4 p {
 
-    overflow:hidden;
+    overflow: hidden;
     text-align: center;
     font-size: 20px;
     color: #fff;
@@ -438,15 +438,15 @@ background-color: #b0143bda;
 
 /* ----------------------------------------seccion5------------------------------------- */
 
-.griSer5{
+.griSer5 {
 
-    grid-area:grid5 ;
+    grid-area: grid5;
     /* background-color: brown; */
     background-color: #b0143bda;
 
 }
 
-.griSer5 img{
+.griSer5 img {
 
     width: 98%;
     height: 280px;
@@ -458,10 +458,10 @@ background-color: #b0143bda;
     -webkit-transition: 1s linear;
     transition: 1s linear;
 
-    
+
 }
 
-.griSer5 img:hover{
+.griSer5 img:hover {
 
     -webkit-transform: scale(.9);
     transform: scale(.9);
@@ -470,21 +470,21 @@ background-color: #b0143bda;
 
 /* ----------------------------------------media only------------------------------------- */
 
-@media only screen and (max-width: 775px ){
+@media only screen and (max-width: 775px) {
 
-    #grilla{
+    #grilla {
 
-    grid-template-areas: "grid1 grid1 grid1"
-    "grid2 grid2 grid2"
-    "grid3 grid3 grid3"
-    "grid4 grid4 grid4"
-    "grid5 grid5 grid5";
+        grid-template-areas: "grid1 grid1 grid1"
+            "grid2 grid2 grid2"
+            "grid3 grid3 grid3"
+            "grid4 grid4 grid4"
+            "grid5 grid5 grid5";
 
-    grid-template-rows: 400px 200px 500px 200px 300px;
+        grid-template-rows: 400px 200px 500px 200px 300px;
 
     }
 
-    .griSer1 img{
+    .griSer1 img {
 
         width: 96%;
         height: 350px;
@@ -492,7 +492,7 @@ background-color: #b0143bda;
 
     }
 
-    .griSer3 img{
+    .griSer3 img {
 
         width: 96%;
         height: 400px;
@@ -500,19 +500,19 @@ background-color: #b0143bda;
 
     }
 
-    .griSer5 img{
-    
+    .griSer5 img {
+
         width: 96%;
         height: 250px;
         object-fit: cover;
-    
+
     }
 
 }
 
-/* ----------------------------------------Nosotros------------------------------------- */
+/* ----------------------------------------Nosotros (utilizando flex)------------------------------------- */
 
-.sec1Nos{
+.sec1Nos {
 
     width: 100%;
     height: 650px;
@@ -520,29 +520,29 @@ background-color: #b0143bda;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow:auto;
+    overflow: auto;
 
 }
 
-.sec1Nos h2{
+.sec1Nos h2 {
 
     text-align: center;
     font-size: 35px;
     font-family: fantasy;
-   
+
 }
 
-.sec1Nos p{
+.sec1Nos p {
 
-    overflow:auto;
+    overflow: auto;
     text-align: left;
     font-size: 20px;
-    
+
 }
 
 /* -------------------------------------- sec 2---------------------------------------- */
 
-.sec2Nos{
+.sec2Nos {
 
     width: 100%;
     height: 1600px;
@@ -552,16 +552,16 @@ background-color: #b0143bda;
 
 }
 
-.grupo{
+.grupo {
 
     width: 100%;
-    height:600px ;
-    overflow:auto;
+    height: 600px;
+    overflow: auto;
     /* background-color: aqua; */
 
 }
 
-.grupo h2{
+.grupo h2 {
 
     text-align: center;
     font-size: 35px;
@@ -570,7 +570,7 @@ background-color: #b0143bda;
 
 }
 
-.grupo p{
+.grupo p {
 
     text-align: center;
     font-size: 20px;
@@ -578,25 +578,25 @@ background-color: #b0143bda;
 
 }
 
-.grupo img{
+.grupo img {
 
     width: 100%;
-    height:450px;
+    height: 450px;
     object-fit: cover;
 
 }
 
 /* ------------------------------------- grupo2 ------------------------------------------ */
 
-.grupo2{
+.grupo2 {
 
     width: 100%;
-    height:250px ;
-    overflow:auto;
+    height: 250px;
+    overflow: auto;
     /* background-color: aquamarine; */
 }
 
-.grupo2 h2{
+.grupo2 h2 {
 
     text-align: center;
     font-size: 35px;
@@ -605,7 +605,7 @@ background-color: #b0143bda;
 
 }
 
-.grupo2 p{
+.grupo2 p {
 
     text-align: center;
     font-size: 20px;
@@ -615,13 +615,13 @@ background-color: #b0143bda;
 
 /* ------------------------------------- grupo3 ------------------------------------------ */
 
-.grupo3{
+.grupo3 {
 
     width: 100%;
-    height:550px ;
+    height: 550px;
 }
 
-.grupo3 h2{
+.grupo3 h2 {
 
     text-align: center;
     font-size: 35px;
@@ -630,58 +630,117 @@ background-color: #b0143bda;
 
 }
 
-.grupo3 img{
+.grupo3 img {
 
     width: 100%;
-    height:700px;
+    height: 700px;
     object-fit: cover;
-    
+
 
 }
 
-@media only screen and (max-width: 700px ){
+@media only screen and (max-width: 700px) {
 
-    .sec1Nos{
+    .sec1Nos {
 
         width: 100%;
         height: 350px;
-    } 
+    }
 
-    .sec2Nos{
+    .sec2Nos {
 
         width: 100%;
         height: 1000px;
-    }   
-
-    .grupo{
-
-        width: 100%;
-        height:350px ; 
     }
 
-    .grupo img{
+    .grupo {
 
         width: 100%;
-        height:200px;
+        height: 350px;
+    }
+
+    .grupo img {
+
+        width: 100%;
+        height: 200px;
         object-fit: cover;
-    
+
     }
 
-    .grupo3{
+    .grupo3 {
 
         width: 100%;
-        height:150px ;
+        height: 150px;
         padding-top: 10px;
     }
 
-    .grupo3 img{
+    .grupo3 img {
 
         width: 100%;
-        height:300px;
+        height: 300px;
         object-fit: contain;
 
     }
-    
+
 
 }
 
+
+/* ---------------------------------------- contactos ------------------------------------- */
+
+
+
+.forC {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/escritorio.jpg);
+
+}
+
+.forC label {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.forC input {
+
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.forC textarea {
+
+    width: 250px;
+
+}
+
+input.bot {
+
+    width: 100px;
+    margin-top: 1rem;
+}
+
+form h2 {
+    margin-bottom: 0;
+    background-color: #b0143bda;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .forC {
+
+        background-position: center;
+        background-size: cover;
+
+    }
+}
