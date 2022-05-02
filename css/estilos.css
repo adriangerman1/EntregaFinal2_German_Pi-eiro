@@ -1,0 +1,510 @@
+* {
+
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.bg-light {
+
+    background-color: #8b0d2c !important;
+}
+
+.navbar-brand {
+
+    color: #fff !important;
+
+}
+
+.nav-link {
+
+    color: #fff !important;
+
+}
+
+.active {
+
+    color: black !important;
+
+}
+
+.carouselExampleControls {
+
+    width: 100%;
+    height: 400px;
+
+}
+
+/* --------------------------------------galeria home---------------------------------------- */
+.vinoHome1 h2 {
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgba(243, 243, 243, 0.945);
+
+}
+
+.vinoHome1 {
+
+    height: 600px;
+    background-color: #b0143bda;
+    text-align: center;
+
+
+}
+
+.vinoHome1 img {
+
+    width: 90%;
+    height: 500px;
+    border: 3px solid rgb(236, 172, 9);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+
+}
+
+.vinoHome1 img:hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+/* -----------------------gal 2--------------------- */
+
+.vinoHome2 h2 {
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgba(243, 243, 243, 0.945);
+
+}
+
+.vinoHome2 {
+
+    height: 600px;
+    background-color: #b0143bda;
+    text-align: center;
+
+
+}
+
+.vinoHome2 img {
+
+    width: 90%;
+    height: 500px;
+    border: 3px solid rgb(236, 172, 9);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.vinoHome2 img:hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+/* ----------------------gal 3------------------------ */
+
+.vinoHome3 h2 {
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgba(243, 243, 243, 0.945);
+
+}
+
+.vinoHome3 {
+
+    height: 600px;
+    background-color: #b0143bda;
+    text-align: center;
+
+}
+
+.vinoHome3 img {
+
+    width: 90%;
+    height: 500px;
+    border: 3px solid rgb(236, 172, 9);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.vinoHome3 img:hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+/* ----------------------gal 4------------------------ */
+
+.vinoHome4 h2 {
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgba(243, 243, 243, 0.945);
+
+}
+
+.vinoHome4 {
+
+    height: 600px;
+    background-color: #b0143bda;
+    text-align: center;
+
+}
+
+.vinoHome4 img {
+
+    width: 90%;
+    height: 500px;
+    border: 3px solid rgb(236, 172, 9);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.vinoHome4 img:hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+/* ------------------------------------footer inicio---------------------------------------------------- */
+
+footer h2 {
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    background-color: #8b0d2c;
+    color: rgba(243, 243, 243, 0.945);
+
+}
+
+.face {
+
+    text-align: center;
+
+}
+
+.tiw {
+
+    text-align: center;
+
+}
+
+.inst {
+
+    text-align: center;
+
+}
+
+.logos {
+
+
+    color: black;
+    font-size: 60px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.logos:hover {
+
+    color: rgba(25, 25, 221, 0.863);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+/* ------------------------------------footer fin---------------------------------------------------- */
+
+/* ------------------------------------Productos---------------------------------------------------- */
+.container-fluid {
+
+    padding-left: 0px;
+    padding-right:0px;
+
+}
+
+.container-fluid img{
+
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.tipoVinoPro{
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color: #fff;
+}
+
+.textoPro{
+
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.vin1{
+
+background-color: #b0143bda;
+
+}
+
+.vin2{
+
+background-color: #b0143bda;
+
+}
+
+.vin3{
+
+background-color: #b0143bda;
+
+
+}
+
+.vin4{
+
+background-color: #b0143bda;
+
+
+}
+
+/* ------------------------------------servicios (utilizando grid)---------------------------------------------------- */
+
+#grilla{
+
+    display: grid;
+
+    grid-template-areas: "grid1 grid1 grid2"
+    "grid3 grid3 grid3"
+    "grid4 grid5 grid5";
+
+    grid-template-rows: 400px 600px 300px ;
+
+    grid-template-columns: 1fr 1fr 1fr ;
+
+}
+
+.griSer1{
+
+    grid-area: grid1;
+    /* background-color: aqua; */
+    background-color: #b0143bda;
+}
+
+.griSer1 img{
+
+    width: 90%;
+    height: 380px;
+    object-fit: cover;
+    border: 2px solid rgb(255, 0, 212);
+    border-radius: 10px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    margin: 10px 10px 10px 10px;
+    
+
+}
+
+.griSer1 img:hover{
+
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+    
+
+}
+
+/* ----------------------------------------seccion2------------------------------------- */
+
+.griSer2{
+
+    grid-area:grid2 ;
+    /* background-color: azure; */
+    background-color: #b0143bda;
+    overflow: auto;
+
+}
+
+.griSer2 h2{
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgba(243, 243, 243, 0.945);
+
+}
+
+.griSer2 p{
+
+    overflow:hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+/* ----------------------------------------seccion3------------------------------------- */
+
+.griSer3{
+
+    grid-area:grid3 ;
+    /* background-color:blue ; */
+    background-color: #b0143bda;
+
+}
+
+.griSer3 h2{
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgba(243, 243, 243, 0.945);
+
+}
+
+.griSer3 img{
+
+    width: 98%;
+    height: 500px;
+    object-fit: cover;
+    border: 2px solid rgb(255, 0, 212);
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.griSer3 img:hover{
+
+    -webkit-transform: perspective(450px) rotateX(5deg);
+    transform: perspective(450px) rotateX(5deg);
+
+}
+
+/* ----------------------------------------seccion4------------------------------------- */
+
+.griSer4{
+
+    grid-area: grid4;
+    /* background-color: blueviolet; */
+    background-color: #b0143bda;
+    overflow: auto;
+
+}
+
+.griSer4 h2{
+
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgba(243, 243, 243, 0.945);
+
+}
+
+.griSer4 p{
+
+    overflow:hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+/* ----------------------------------------seccion5------------------------------------- */
+
+.griSer5{
+
+    grid-area:grid5 ;
+    /* background-color: brown; */
+    background-color: #b0143bda;
+
+}
+
+.griSer5 img{
+
+    width: 98%;
+    height: 280px;
+    object-fit: cover;
+    border: 2px solid rgb(255, 0, 212);
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+    
+}
+
+.griSer5 img:hover{
+
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+
+}
+
+/* ----------------------------------------media only------------------------------------- */
+
+@media only screen and (max-width: 775px ){
+
+    #grilla{
+
+    grid-template-areas: "grid1 grid1 grid1"
+    "grid2 grid2 grid2"
+    "grid3 grid3 grid3"
+    "grid4 grid4 grid4"
+    "grid5 grid5 grid5";
+
+    grid-template-rows: 400px 200px 500px 200px 300px;
+
+    }
+
+    .griSer1 img{
+
+        width: 96%;
+        height: 350px;
+        object-fit: cover;
+
+    }
+
+    .griSer3 img{
+
+        width: 96%;
+        height: 400px;
+        object-fit: cover;
+
+    }
+
+    .griSer5 img{
+    
+        width: 96%;
+        height: 250px;
+        object-fit: cover;
+    
+    }
+
+}
+
+/* ----------------------------------------Nosotros------------------------------------- */
+
+
